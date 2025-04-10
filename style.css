@@ -6,13 +6,13 @@
   
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f9f9f9;
+    background: #fffaec;
     color: #333;
   }
   
   header {
     background: linear-gradient(to right, #39e664, #a1ff6b);
-    color: white;
+    color: rgb(255, 183, 27);
     text-align: center;
     padding: 2rem 1rem;
   }
@@ -69,8 +69,8 @@
   
   .filters .active,
   .filters button:hover {
-    background: #5ce639;
-    color: white;
+    background: #6ffd37;
+    color: rgb(42, 207, 10);
   }
   
   .menu-grid {
@@ -81,7 +81,7 @@
   }
   
   .card {
-    background: white;
+    background: rgb(255, 159, 15);
     min-height: 360px;
     border-radius: 12px;
     overflow: hidden;
