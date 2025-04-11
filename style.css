@@ -5,14 +5,14 @@
   }
   
   body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI',Arial, Helvetica, sans-serif,;
     background: #fffaec;
     color: #333;
   }
   
   header {
     background: linear-gradient(to right, #39e664, #a1ff6b);
-    color: rgb(255, 183, 27);
+    color: rgba(230, 155, 17, 0.705);
     text-align: center;
     padding: 2rem 1rem;
   }
@@ -87,6 +87,7 @@
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0,0,0,0.05);
     transition: transform 0.3s;
+    font-style: italic;
   }
   
   .card:hover {
